@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Lucida Bright";
+   
+  
+    
+    
+  }
+.navbar{
+    max-height: 59px;
+    min-height: 63px;
+    }
+    img {
+       vertical-align: middle;
+       max-height: 71px;
+   }
+   .bg-success {
+    max-height: 46px;
+    min-height: 46px;
+       background-color: #327fa8;
+   
+   }
+       .brand_logo_container {
+               position: absolute;
+               height: 90px;
+               width: 90px;
+               top: -83px;
+               border-radius: 50%;
+               
+               padding: 10px;
+               text-align: center;
+               padding-top: 69px;
+           }
+           .brand_logo {
+            width: 95px;
+            min-height: 88px;
+               border-radius: 50%;
+               border: 2px solid white;
+           }
+           textarea.form-control {
+       height: 154px;
+   }
+   .angular-with-newlines {
+    white-space: pre-wrap;
+}
