@@ -1,0 +1,22 @@
+<h2>XML IMPORT IN ANGULAR</h2>
+<img
+  src="https://developers.redhat.com/sites/default/files/styles/article_feature/public/blog/2020/11/vscode-xml_2x.png?itok=GsjHxptU" />
+
+  <table class="table">
+    <thead>
+      <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Mobile</th>
+  </tr>
+  </thead>
+  <tbody>
+
+  <tr *ngFor="let i of list;let j=index" [ngClass]="i.class_name">
+    <td>{{i.name}}</td>
+    <td>{{i.email}}</td>
+    <td>{{i.mobile}}</td>
+  </tr>
+  </tbody>
+</table>
+<input type="file" (change)="selectFile($event)" />
